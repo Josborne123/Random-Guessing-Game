@@ -9,7 +9,7 @@ while True: #tries < 5:
     i = int(guess)
     if i == num:
         print('You guessed right')
-        tries += 1  # Remove this line of code if there is a set number of tries
+        tries += 1
         print('\nYou took ' + str(tries) + ' tries')
         print('\nWindow will close now')
         time.sleep(3)
